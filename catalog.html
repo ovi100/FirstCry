@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>FirstCry Store</title>
+	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+	<!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Web Font Core CSS -->
+	<link rel="stylesheet" href="css/icofont.css">
+	<!-- Developer Custom CSS -->
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+</head>
+<body>
+
+	<!-- Start Project Code  -->
+
+	<div id="menu-sidenav" class="menu-sidenav">
+		<a class="closebtn" onclick="closemenuSidenav()">&times;</a>
+		<div class="sidenav-menu-link">
+			<h5>Shop By</h5>
+			<ul>
+				<li><a href="">home</a></li>
+				<li><a href="">shirt</a></li>
+				<li>
+					<a data-toggle="collapse" href="#second-category">
+						t-shirt <span class="fa fa-angle-right"></span>
+					</a>
+					<div id="second-category" class="collapse">
+						<ul>
+							<li>
+								<a data-toggle="collapse" href="#third-category">
+									NEW T-SHIRT <span class="fa fa-angle-right"></span>
+								</a>
+								<div id="third-category" class="collapse">
+									<ul>
+										<li><a href="#">Normal Shirt</a></li>
+										<li><a href="#">Formal Shirt</a></li>
+										<li><a href="#">Punjabi</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#">GONJI STAMP</a></li>
+							<li><a href="#">IDENTITY CRISIS</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href=""><i class="fa fa-shopping-bag"></i> my cart</a></li>
+				<li><a href=""><i class="fa fa-check-circle"></i> checkout</a></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="sidenav-menu-account">
+			<ul>
+				<li><a href="#">Terms and Condition</a></li>
+				<li><a href="#"><span class="fa fa-user-circle"></span> Reister</a></li>
+				<li><a href="#"><span class="fa fa-sign-in"></span> Login</a></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="sidenav-menu-social">
+			<ul>
+				<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+				<li><a href="#"><span class="fa fa-instagram"></span></a></li>
+				<li><a href="#"><span class="fa fa-youtube-play"></span></a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Start Header Section -->
+	<div class="header" id="header">
+		<div class="top-nav">
+			<div class="topnav-wrapper">
+				<ul>
+					<li><a href="" class="link-bg">contact us</a></li>
+					<li><a href="" class="link-bg">track order</a></li>
+					<li><a href="" class="link-bg">register</a></li>
+					<li><a href="">login</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="action-bar">
+			<div class="actionbar-wrapper">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<div class="sidenav">
+							<a onclick="openmenuSidenav()">
+				    			<i class="fa fa-bars"></i>
+				    		</a>
+						</div>
+
+						<div class="logo">
+							<a href="">
+								<img src="images/mainlogo.png" alt="Logo">
+							</a>
+						</div>
+					</div>
+
+					<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+						<div class="searchbox">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Search">
+								<div class="input-group-addon">
+									<button type="submit">
+										<i class="icofont icofont-search-alt-1"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-9">
+						<div class="cart-box">
+							<a href="">
+								<i class="icofont icofont-cart-alt"></i>
+								<span>1</span>
+							</a>
+							<a href="">place order</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="main-nav">
+			<div class="mainnav-wrapper">
+				<ul>
+					<li class="dropdown large-dropdown">
+						<span>
+							<a class="dropdown-toggle link-bg" data-toggle="dropdown">sale</a>
+						</span>
+						<ul class="dropdown-menu large-dropdown-menu">
+
+							<li class="col-lg-3 col-md-3 col-sm-3">
+								<ul>
+									<li><h5 class="submenu-header">promotions</h5></li>
+									<ul class="submenu-list">
+										<li><a href="">Sofas On Discount</a></li>
+										<li><a href="">Buyback Guarantee</a></li>
+										<li><a href="">Deals of the Week</a></li>
+										<li><a href="">Clearance Sale</a></li>
+										<li><a href="">Back in Stock</a></li>
+									</ul>
+								</ul>
+							</li>
+
+							<li class="col-lg-3 col-md-3 col-sm-3">
+								<ul>
+									<li><h5 class="submenu-header">exchange</h5></li>
+									<ul class="submenu-list">
+										<li><a href="">Exchange Your Old Furniture</a></li>
+									</ul>
+								</ul>
+							</li>
+
+							<li class="col-lg-3 col-md-3 col-sm-3">
+								<ul>
+									<li><h5 class="submenu-header">promotions</h5></li>
+									<ul class="submenu-list">
+										<li><a href="">Sofas On Discount</a></li>
+										<li><a href="">Buyback Guarantee</a></li>
+										<li><a href="">Deals of the Week</a></li>
+										<li><a href="">Clearance Sale</a></li>
+										<li><a href="">Back in Stock</a></li>
+									</ul>
+								</ul>
+							</li>
+
+							<li class="col-lg-3 col-md-3 col-sm-3">
+								<ul>
+									<li><h5 class="submenu-header">exchange</h5></li>
+									<ul class="submenu-list">
+										<li><a href="">Exchange Your Old Furniture</a></li>
+									</ul>
+								</ul>
+							</li>
+
+						</ul>
+					</li>
+					<li><a href=""><span class="link-hover">living</span></a></li>
+					<li><a href=""><span class="link-hover">bedroom</span></a></li>
+					<li><a href=""><span class="link-hover">dining</span></a></li>
+					<li><a href=""><span class="link-hover">storage</span></a></li>
+					<li><a href=""><span class="link-hover">study</span></a></li>
+					<li><a href=""><span class="link-hover">mattresses</span></a></li>
+					<li><a href=""><span class="link-hover">interiors</span></a></li>
+					<li><a href=""><span class="link-hover">decor</span></a></li>
+					<li><a href=""><span class="link-hover">collections</span></a></li>
+					<li><a href=""><span class="link-hover">new</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End Header Section -->
+
+	<!-- <div class="mobile-menu">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-8">
+					<a onclick="openmenuSidenav()"><i class="fa fa-bars"></i>&nbsp;&nbsp;Cilory</a>
+					
+				</div>
+				<div class="col-xs-4">
+					<div class="row">
+						<div class="col-xs-1">
+							<a data-toggle="collapse" data-target="#search-box">
+								<i class="fa fa-search"></i>
+							</a>
+						</div>
+						<div class="col-xs-1"><a href=""><i class="fa fa-user-circle"></i></a></div>
+						<div class="col-xs-1"><a href=""><i class="fa fa-shopping-bag"></i></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="search-box" class="collapse">
+		<form>
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Search">
+				<div class="input-group-btn">
+				<button class="btn btn-default" type="submit">
+					<i class="fa fa-search"></i>
+				</button>
+				</div>
+			</div>
+		</form>
+	</div> -->
+
+	<div class="back-link">
+		<div class="section-content">
+			<ul class="breadcrumb">
+				<li><a href="#">home</a></li>
+				<li><a href="#">men</a></li>
+				<li><a href="#">t-shirt</a></li>
+				<li class="active">polos</li> 
+			</ul>
+		</div>
+	</div>
+
+	<!-- Start Catalog Section -->
+	<section class="catalog">
+		<div class="section-content">
+			<div class="catalog-filter" id="catalog-filter">
+				<div class="filter-option">
+					<div id="closebtn">
+						<a class="closebtn" onclick="closeOption()">&times;</a>
+					</div>
+					<div class="category">
+						<div class="header">
+							<a data-toggle="collapse" data-target="#category">
+								<i class="icofont icofont-caret-down"></i> 
+								categories
+							</a>
+						</div>
+						<div class="body collapse in" id="category">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">option 1</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">option 2</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">option 3</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">option 4</a> <span>(105)</span>
+								</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="brand">
+						<div class="header">
+							<a data-toggle="collapse" data-target="#brand">
+								<i class="icofont icofont-caret-down"></i> 
+								brand
+							</a>
+						</div>
+						<div class="body collapse in" id="brand">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">brand 1</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">brand 2</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">brand 3</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">brand 4</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">brand 5</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">brand 6</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">brand 7</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">brand 8</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">brand 9</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">brand 10</a> <span>(105)</span>
+								</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="size">
+						<div class="header">
+							<a data-toggle="collapse" data-target="#size">
+								<i class="icofont icofont-caret-down"></i> 
+								size
+							</a>
+						</div>
+						<div class="body collapse in" id="size">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">small</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">medium</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">larg</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">extra larg</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">39</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">40</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">41</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">42</a> <span>(105)</span>
+								</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="color">
+						<div class="header">
+							<a data-toggle="collapse" data-target="#color">
+								<i class="icofont icofont-caret-down"></i> 
+								color
+							</a>
+						</div>
+						<div class="body collapse in" id="color">
+							<ul class="nav navbar-nav">
+								<li><div id="bc"></div></li>
+								<li><div id="wc"></div></li>
+								<li><div id="rc"></div></li>
+								<li><div id="grc"></div></li>
+								<li><div id="gc"></div></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="price">
+						<div class="header">
+							<a data-toggle="collapse" data-target="#price">
+								<i class="icofont icofont-caret-down"></i> 
+								price
+							</a>
+						</div>
+						<div class="body collapse in" id="price">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">price 1</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">price 2</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">price 3</a> <span>(105)</span>
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="">
+									<a href="">price 4</a> <span>(105)</span>
+								</label>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="catalog-item">
+				<h3>Collection Name</h3>
+
+				<div class="option-box">
+
+					<div class="filter-option-mobile">
+						<a onclick="openOption()">filter</a>
+					</div>
+					<div class="dropdown sort-option">
+						<button class="btn btn-default dropdown-toggle" type="submit" data-toggle="dropdown">
+							Sort By
+							<i class="fa fa-angle-down"></i>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">New Product</a></li>
+							<li><a href="#">Price:Low-High</a></li>
+							<li><a href="#">Price:High-Low</a></li>
+							<li><a href="#">Sort: A-Z</a></li>
+							<li><a href="#">Sort: Z-A</a></li>	
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="catalog-product">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+							<a href="">
+								<div class="product-box">
+									<div class="product-photo">
+											<a class="featured-img" href="">
+												<img class="img-responsive front-img" src="images/cpf.jpg" alt="Product Image">
+												<img class="img-responsive back-img" src="images/cpb.jpg" alt="Product Image">
+											</a>
+										<span>new</span>
+									</div>
+									<div class="product-name">
+										<a href="">it is a long established fact that a reader will be distracted </a>
+									</div>
+									<div class="product-price">
+										<span>Tk.500</span> 
+									</div>
+									<div class="product-option">
+										<a href="">
+											<i class="fa fa-search-plus"></i> quick buy
+										</a>
+										<a href="">
+											view details <i class="fa fa-arrow-circle-right"></i>
+										</a>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+							<a href="">
+								<div class="product-box">
+									<div class="product-photo">
+											<a class="featured-img" href="">
+												<img class="img-responsive front-img" src="images/cpf.jpg" alt="Product Image">
+												<img class="img-responsive back-img" src="images/cpb.jpg" alt="Product Image">
+											</a>
+										<span>new</span>
+									</div>
+									<div class="product-name">
+										<a href="">it is a long established fact that a reader will be distracted </a>
+									</div>
+									<div class="product-price">
+										<span>Tk.500</span> 
+									</div>
+									<div class="product-option">
+										<a href="">
+											<i class="fa fa-search-plus"></i> quick buy
+										</a>
+										<a href="">
+											view details <i class="fa fa-arrow-circle-right"></i>
+										</a>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+							<a href="">
+								<div class="product-box">
+									<div class="product-photo">
+											<a class="featured-img" href="">
+												<img class="img-responsive front-img" src="images/cpf.jpg" alt="Product Image">
+												<img class="img-responsive back-img" src="images/cpb.jpg" alt="Product Image">
+											</a>
+										<span>new</span>
+									</div>
+									<div class="product-name">
+										<a href="">it is a long established fact that a reader will be distracted </a>
+									</div>
+									<div class="product-price">
+										<span>Tk.500</span> 
+									</div>
+									<div class="product-option">
+										<a href="">
+											<i class="fa fa-search-plus"></i> quick buy
+										</a>
+										<a href="">
+											view details <i class="fa fa-arrow-circle-right"></i>
+										</a>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+							<a href="">
+								<div class="product-box">
+									<div class="product-photo">
+											<a class="featured-img" href="">
+												<img class="img-responsive front-img" src="images/cpf.jpg" alt="Product Image">
+												<img class="img-responsive back-img" src="images/cpb.jpg" alt="Product Image">
+											</a>
+										<span>new</span>
+									</div>
+									<div class="product-name">
+										<a href="">it is a long established fact that a reader will be distracted </a>
+									</div>
+									<div class="product-price">
+										<span>Tk.500</span> 
+									</div>
+									<div class="product-option">
+										<a href="">
+											<i class="fa fa-search-plus"></i> quick buy
+										</a>
+										<a href="">
+											view details <i class="fa fa-arrow-circle-right"></i>
+										</a>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<!-- Second Row -->
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+							<a href="">
+								<div class="product-box">
+									<div class="product-photo">
+											<a class="featured-img" href="">
+												<img class="img-responsive front-img" src="images/cpf.jpg" alt="Product Image">
+												<img class="img-responsive back-img" src="images/cpb.jpg" alt="Product Image">
+											</a>
+										<span>new</span>
+									</div>
+									<div class="product-name">
+										<a href="">it is a long established fact that a reader will be distracted </a>
+									</div>
+									<div class="product-price">
+										<span>Tk.500</span> 
+									</div>
+									<div class="product-option">
+										<a href="">
+											<i class="fa fa-search-plus"></i> quick buy
+										</a>
+										<a href="">
+											view details <i class="fa fa-arrow-circle-right"></i>
+										</a>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+							<a href="">
+								<div class="product-box">
+									<div class="product-photo">
+											<a class="featured-img" href="">
+												<img class="img-responsive front-img" src="images/cpf.jpg" alt="Product Image">
+												<img class="img-responsive back-img" src="images/cpb.jpg" alt="Product Image">
+											</a>
+										<span>new</span>
+									</div>
+									<div class="product-name">
+										<a href="">it is a long established fact that a reader will be distracted </a>
+									</div>
+									<div class="product-price">
+										<span>Tk.500</span> 
+									</div>
+									<div class="product-option">
+										<a href="">
+											<i class="fa fa-search-plus"></i> quick buy
+										</a>
+										<a href="">
+											view details <i class="fa fa-arrow-circle-right"></i>
+										</a>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+							<a href="">
+								<div class="product-box">
+									<div class="product-photo">
+											<a class="featured-img" href="">
+												<img class="img-responsive front-img" src="images/cpf.jpg" alt="Product Image">
+												<img class="img-responsive back-img" src="images/cpb.jpg" alt="Product Image">
+											</a>
+										<span>new</span>
+									</div>
+									<div class="product-name">
+										<a href="">it is a long established fact that a reader will be distracted </a>
+									</div>
+									<div class="product-price">
+										<span>Tk.500</span> 
+									</div>
+									<div class="product-option">
+										<a href="">
+											<i class="fa fa-search-plus"></i> quick buy
+										</a>
+										<a href="">
+											view details <i class="fa fa-arrow-circle-right"></i>
+										</a>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+							<a href="">
+								<div class="product-box">
+									<div class="product-photo">
+											<a class="featured-img" href="">
+												<img class="img-responsive front-img" src="images/cpf.jpg" alt="Product Image">
+												<img class="img-responsive back-img" src="images/cpb.jpg" alt="Product Image">
+											</a>
+										<span>new</span>
+									</div>
+									<div class="product-name">
+										<a href="">it is a long established fact that a reader will be distracted </a>
+									</div>
+									<div class="product-price">
+										<span>Tk.500</span> 
+									</div>
+									<div class="product-option">
+										<a href="">
+											<i class="fa fa-search-plus"></i> quick buy
+										</a>
+										<a href="">
+											view details <i class="fa fa-arrow-circle-right"></i>
+										</a>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="clearfix"></div>
+	</div>
+	</section>
+	<!-- End Catalog Section -->
+
+	<!-- Start Activities Section -->
+	<section class="activites">
+		<h2>big store for littel ones</h2>
+
+		<div class="section-content">
+			<div class="row">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+					<div class="activity">
+						<div class="icon">
+							<i class="icofont icofont-toy-horse"></i>
+						</div>
+						<div class="text">
+							<p>2 Lakh Baby & Kids Products</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+					<div class="activity">
+						<div class="icon">
+							<i class="icofont icofont-refree-jersey"></i>
+						</div>
+						<div class="text">
+							<p>2 Thousand Brands</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+					<div class="activity">
+						<div class="icon">
+							<i class="icofont icofont-emo-nerd-smile"></i>
+						</div>
+						<div class="text">
+							<p>2 Million Happy Customers</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+					<div class="activity">
+						<div class="icon">
+							<i class="icofont icofont-refresh"></i>
+						</div>
+						<div class="text">
+							<p>Easy Return Policy</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+					<div class="activity">
+						<div class="icon">
+							<i class="icofont icofont-truck-loaded"></i>
+						</div>
+						<div class="text">
+							<p>Free Shipping Available <br>above Tk. 499*</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
+			</div>
+		</div>
+
+		<div class="feedback">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+						<img src="images/feedimg1.png" alt="">
+					</div>
+
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div id="client" class="carousel slide" data-ride="carousel">
+						  	<!-- Indicators -->
+						  	<ol class="carousel-indicators">
+							    <li data-target="#client" data-slide-to="0" class="active">1</li>
+							    <li data-target="#client" data-slide-to="1">2</li>
+							    <li data-target="#client" data-slide-to="2">3</li>
+						  	</ol>
+
+						  	<!-- Wrapper for slides -->
+						  	<i class="icofont icofont-quote-left ql"></i>
+						  	<div class="carousel-inner">
+							    <div class="item active">
+							      	<h5>MD Abu Sayed</h5>
+							      	<p>Labore ad nostrud deserunt ut occaecat laboris veniam ut dolor. Duis consectetur dolor in in incididunt anim irure officia mollit velit. Lorem ipsum tempor ad reprehenderit amet magna cupidatat veniam velit excepteur veniam dolor sint cupidatat do labore occaecat ut eu proident.</p>
+							    </div>
+
+							    <div class="item">
+							      	<h5>MD Abu Sayed</h5>
+							      	<p>Labore ad nostrud deserunt ut occaecat laboris veniam ut dolor. Duis consectetur dolor in in incididunt anim irure officia mollit velit. Lorem ipsum tempor ad reprehenderit amet magna cupidatat veniam velit excepteur veniam dolor sint cupidatat do labore occaecat ut eu proident.</p>
+							    </div>
+
+							    <div class="item">
+							      	<h5>MD Abu Sayed</h5>
+							      	<p>Labore ad nostrud deserunt ut occaecat laboris veniam ut dolor. Duis consectetur dolor in in incididunt anim irure officia mollit velit. Lorem ipsum tempor ad reprehenderit amet magna cupidatat veniam velit excepteur veniam dolor sint cupidatat do labore occaecat ut eu proident.</p>
+							    </div>
+						  	</div>
+						  	<i class="icofont icofont-quote-right qr"></i>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+						<img src="images/feedimg2.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Activities Section -->
+
+	<!-- Start Long Footer Section -->
+	<section class="long-footer">
+		<div class="section-content">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+					<h5>Category</h5>
+					<ul>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+					<h5>information</h5>
+					<ul>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+					<h5>contact us</h5>
+					<a href="">magna commodo.</a>
+					<p>
+						1017, JMD Megapolis, 10th Floor <br>
+						Sohna Road, Sector 48 <br>
+						Gurgaon -122018 <br>
+						India.<br>
+						Tel: 0124 4745 777 (9 am - 8 pm Mon-Sat)<br>
+						store@example.com
+					</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+					<h5>follow us</h5>
+					<div class="social">
+						<ul>
+							<li>
+							
+								<a href="#" class="face"><i class="icofont icofont-social-facebook"></i></a>
+							
+								<a href="#" class="twit"><i class="icofont icofont-social-twitter"></i></i></a>
+							
+								<a href="#" class="tube"><i class="icofont icofont-social-youtube-play"></i></a>
+							
+								<a href="#" class="drib"><i class="icofont icofont-social-dribbble"></i></a>
+								
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Long Footer Section -->
+
+	<!-- Start Footer Section -->
+	<footer>
+		<p>&copy; 2018 FirstCry</p>	
+	</footer>
+	<!-- End Footer Section -->
+
+	<!-- End Project Code  -->
+
+	<!-- Your Needed JavaScript Library Here -->
+
+	<!-- JQuery Core JS -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- Bootstrap Core JS -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- ElevateZoom Core JS -->
+	<script type="text/javascript" src="js/elevateZoom.min.js"></script>
+	<!-- Developer Custom JS -->
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<!-- End of All JavaScript Library -->
+</body>
+</html>
